@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container > div {
+            background-color: orange;
+            border: 1px solid #fff;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /*grid-template-columns: 25% 50% 25%;*/
+            /*grid-gap: 10px;*/
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .item6 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div class="item6">6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+</body>
+</html>

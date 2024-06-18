@@ -1,0 +1,76 @@
+body{
+    background: ghostwhite;
+}
+#left {
+    border: none;
+    background: ghostwhite;
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-right: 25px;
+}
+#right {
+    box-shadow: 1px 1px 5px 3px gainsboro;
+    border: none;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 310px;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+#center {
+    background: ghostwhite;
+    margin-top: 100px;
+    border: none;
+    position: relative;
+    height: 400px;
+}
+.log {
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
+}
+h1{
+    color: blue;
+}
+input{
+    border-radius: 7px;
+    border: 1px solid silver;
+}
+button{
+    border-radius: 7px;
+}
+.a1{
+    height: 40px;
+    width: 92%;
+    margin-top: 20px;
+    color: aliceblue;
+    background: blue;
+    border: none;
+}
+.a2 {
+    height: 45px;
+    width: 50%;
+    margin-top: 10px;
+    color: aliceblue;
+    background: limegreen;
+    border: none;
+}
+#string{
+    color: blue;
+    padding: 10px;
+}
+#string2{
+    padding-top: 30px;
+}
+hr{
+    width: 90%;
+}
